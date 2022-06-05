@@ -4,7 +4,7 @@ Clone of Uniswap V2 Decentralized Exchange (DEX).
 
 ### Cloning steps
 
-1. Copy Uniswap Factory Contract and add `INIT_CODE_PAIR_HASH`
+1. Copy Uniswap Factory Contract and add `INIT_CODE_PAIR_HASH` constant
 2. Deploy contract and save the `Factory Contract Address` and the `INIT_CODE_PAIR_HASH` value
 3. Copy Uniswap Router Contract and change the `INIT_CODE_PAIR_HASH` value from previous step
 4. Deploy contract and save `Router Contract Address`
