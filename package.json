@@ -5,6 +5,13 @@
   "author": "Ramdhani Rachmansyah",
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "prestart": "yarn",
+    "start": "yarn workspace @uniswap/widgets start"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
