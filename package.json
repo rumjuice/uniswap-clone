@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "prestart": "yarn",
-    "start": "yarn workspace @uniswap/widgets start"
+    "start": "yarn workspace @uniswap/widgets start",
+    "deploy": "npx hardhat run scripts/deploy.ts"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
